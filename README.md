@@ -59,8 +59,10 @@ And by go further by using a single include:
 
 The best results would come from building a theme from a scratch with the tool in mind, as my deconstruction of *Rhapsodii 2.0* could be optimised further still.
 
-So... the tool! I'm calling it [B]Priiprocess[/B] and it is less than 100 lines of PHP code. It could easily be ported to Python or even C (if WFL wanted to add support for this type of theme structure).
+So... the tool! I'm calling it **Priiprocess** and it is less than 100 lines of PHP code. It could easily be ported to Python or even C (if WFL wanted to add support for this type of theme structure).
 
 ## Usage
 
     php priiprocess.php
+
+It spits out a .prii.ini file (includes merged, variables untouched) and an .ini (incudes merged, variables replaced).
