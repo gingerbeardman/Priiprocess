@@ -1,19 +1,16 @@
 # Priiprocess
 
-> This tool was created to help make it easier to create, edit and maintain software .ini files
+> This tool was created to help make it easier to create, edit and maintain .ini files for software that doesn't manage them itself
 
 The goals were:
 
-* Easier theme creation
-* Easier theme editing
-* Easier theme management
-* Smaller themes
-* Modular themes
+* Easier theme creation/editing/management
+* Smaller & Modular themes
 
 It does this by introducing:
 
-* variables
-* includes
+* Variables
+* Includes
 
 The result is kind of like a cross between INI and CSS. 
 
@@ -60,8 +57,4 @@ And by go further by using a single include:
 
 The best results would come from building a theme from a scratch with the tool in mind, as my deconstruction of *Rhapsodii 2.0* could be optimised further still.
 
-So... the tool! I'm calling it [B]Priiprocess[/B] and it is less than 100 lines of PHP code. It could easily be ported to Python or even C (if WFL wanted to add support for this type of theme structure). 
-
-Let's call this a first test vision, to get feedback. If it's something people would use then I will create my own thread for it.
-
-Thanks for your time and have fun!
+So... the tool! I'm calling it [B]Priiprocess[/B] and it is less than 100 lines of PHP code. It could easily be ported to Python or even C (if WFL wanted to add support for this type of theme structure).
