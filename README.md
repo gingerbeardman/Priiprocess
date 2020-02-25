@@ -22,31 +22,31 @@ To show that the tool works, I have deconstructed *Rhapsodii 2.0* - a theme for 
 
 **Variable (Long)**
 
-      ;.example_1	: key=value
+    ;.example_1	: key=value
 
-  Usage
+  _Usage:_
 
-      [SECTION]
-      .example_1
+    [SECTION]
+    .example_1
 
 **Variable (Short)**
 
 
-      ;.example_2	: value
+    ;.example_2	: value
 
-  Usage
+  _Usage:_
 
-      [SECTION]
-      key=.example_2
+    [SECTION]
+    key=.example_2
 
 **Includes**
 
-      ;.example_3	: inc.file_name.ini
+    ;.example_3	: inc.file_name.ini
 
-  Usage
+  _Usage:_
 
-      [SECTION]
-      .example_3
+    [SECTION]
+    .example_3
 
 ## Example
 
