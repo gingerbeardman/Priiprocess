@@ -18,6 +18,36 @@ You can define a single *.color_heading* and then use it in many places. To chan
 
 To show that the tool works, I have deconstructed *Rhapsodii 2.0* - a theme for [WiiFlow Lite](https://github.com/Fledge68/WiiFlow_Lite) - which in the process became a more organised. By reusing definitions for common positions and reusable elements I was able to consolidate and improve consistency. Thanks to [@Hakaisha](https://github.com/Hakaisha) the creator of that theme for their kind support!
 
+## Capabilities
+
+**Variable (Long)**
+
+      ;.example_1	: key=value
+
+  Usage
+
+      [SECTION]
+      .example_1
+
+**Variable (Short)**
+
+
+      ;.example_2	: value
+
+  Usage
+
+      [SECTION]
+      key=.example_2
+
+**Includes**
+
+      ;.example_3	: inc.file_name.ini
+
+  Usage
+
+      [SECTION]
+      .example_3
+
 ## Example
 
 As an example, every title has the same code:
@@ -52,9 +82,12 @@ We can replace this with the names of (unshown) user definitions, which is easie
 	.title_x
 	.title_y
 
-And by go further by using a single include:
+But we can go even further by using a single include to reuse the definitions in multiple places:
 
 	[ABOUT/TITLE]
+	.title
+
+	[PLUGIN/TITLE]
 	.title
 
 The best results would come from building a theme from a scratch with the tool in mind, as my deconstruction of *Rhapsodii 2.0* could be optimised further still.
