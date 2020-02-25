@@ -36,7 +36,7 @@ As an example, every title has the same code:
 	x=20
 	y=15
 
-We can replace this with user definitions, which is easier to write but still repetitive:
+We can replace this with the names of (unshown) user definitions, which is easier to read/write but still repetitive:
 
 	[ABOUT/TITLE]
 	.white
