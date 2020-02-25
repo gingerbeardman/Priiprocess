@@ -1,0 +1,10 @@
+[_COVERFLOW]
+font=exo2med.ttf
+.font_white
+.no_line_height
+.no_font_size
+.no_font_weight
+loading_cover_box=loading.png
+loading_cover_flat=flatloading.png
+missing_cover_box=default.png
+sound_select=click.wav

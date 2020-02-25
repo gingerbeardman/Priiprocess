@@ -1,0 +1,175 @@
+;.fixed_left			: effect_x=0
+;.from_off_left			: effect_x=-300
+;.from_off_right		: effect_x=300
+;.from_off_right_far	: effect_x=620
+;.fixed_top				: effect_y=0
+;.from_off_top			: effect_y=-200
+;.from_off_bottom		: effect_y=200
+;.from_off_bottom_far	: effect_y=600
+;.zero_scale_x			: effect_scale_x=0
+;.zero_scale_y			: effect_scale_y=0
+;.fixed_scale_x			: effect_scale_x=1
+;.fixed_scale_y			: effect_scale_y=1
+;.negative_scale_x		: effect_scale_x=-2
+;.negative_scale_y		: effect_scale_y=-1
+;.positive_scale_x		: effect_scale_x=2
+;.positive_scale_y		: effect_scale_y=2
+
+;.white					: color=#FFFFFFFF
+;.font_white			: font_color=#FFFFFFFF
+
+;.no_line_height		: font_line_height=0
+;.no_font_size			: font_size=0
+;.no_font_weight		: font_weight=0
+
+;.title_height			: height=60
+;.title_width			: width=600
+;.title_x				: x=20
+;.title_y				: y=15
+
+;.label_x				: x=25
+
+;.cfg_x_button			: x=390
+;.cfg_x_action			: x=420
+;.cfg_x_minus			: x=438
+;.cfg_x_plus			: x=572
+
+;.cfg_y_line_1			: y=130
+;.cfg_y_line_2			: y=190
+;.cfg_y_line_3			: y=250
+;.cfg_y_line_4			: y=310
+;.cfg_y_line_5			: y=370
+;.cfg_y_flag_1			: y=250
+;.cfg_y_flag_2			: y=330
+;.cfg_y_action			: y=400
+
+;.bg_vapor				: texture=vapor.png
+;.bg_mod				: background_texture=mod.png
+
+;.action_button			: inc.action_button.prii
+;.category_button		: inc.category_button.prii
+;.category_label		: inc.category_label.prii
+;.cftheme_label			: inc.cftheme_label.prii
+;.cftheme_minus			: inc.cftheme_minus.prii
+;.cftheme_plus			: inc.cftheme_plus.prii
+;.cftheme_value			: inc.cftheme_value.prii
+;.cheat_button			: inc.cheat_button.prii
+;.cheat_label			: inc.cheat_label.prii
+;.exit_button_even		: inc.exit_button_even.prii
+;.exit_button_odd		: inc.exit_button_odd.prii
+;.flag_button			: inc.flag_button.prii
+;.home_button_left		: inc.home_button_left.prii
+;.home_button_right		: inc.home_button_right.prii
+;.numpad_button			: inc.numpad_button.prii
+;.option_button			: inc.option_button.prii
+;.option_label			: inc.option_label.prii
+;.page_plusminus		: inc.page_plusminus.prii
+;.page_value			: inc.page_value.prii
+;.plusminus_button		: inc.plusminus_button.prii
+;.plusminus_label		: inc.plusminus_label.prii
+;.plusminus_value		: inc.plusminus_value.prii
+;.system_label			: inc.system_label.prii
+;.title					: inc.title.prii
+
+;.SECTION_ABOUT			: inc.section_about.prii
+;.SECTION_BLANK_COVERS	: inc.section_blank_covers.prii
+;.SECTION_BOOT			: inc.section_boot.prii
+;.SECTION_CATEGORY		: inc.section_category.prii
+;.SECTION_CFG_HB		: inc.section_cfg_hb.prii
+;.SECTION_CFG_SRC		: inc.section_cfg_src.prii
+;.SECTION_CFTHEME		: inc.section_cftheme.prii
+;.SECTION_CHEAT			: inc.section_cheat.prii
+;.SECTION_CODE			: inc.section_code.prii
+;.SECTION_CONFIG		: inc.section_config.prii
+;.SECTION_COVERBNR		: inc.section_coverbnr.prii
+;.SECTION_DOWNLOAD		: inc.section_download.prii
+;.SECTION_ERROR			: inc.section_error.prii
+;.SECTION_EXIT			: inc.section_exit.prii
+;.SECTION_EXPLORER		: inc.section_explorer.prii
+;.SECTION_GAME			: inc.section_game.prii
+;.SECTION_GAMEINFO		: inc.section_gameinfo.prii
+;.SECTION_GAME_SETTINGS	: inc.section_game_settings.prii
+;.SECTION_GENERAL		: inc.section_general.prii
+;.SECTION_HOME			: inc.section_home.prii
+;.SECTION_MAIN			: inc.section_main.prii
+;.SECTION_MEM			: inc.section_mem.prii
+;.SECTION_NANDEMU		: inc.section_nandemu.prii
+;.SECTION_PARTCFG		: inc.section_partcfg.prii
+;.SECTION_PATHS			: inc.section_paths.prii
+;.SECTION_PLUGIN		: inc.section_plugin.prii
+;.SECTION_PROMPT		: inc.section_prompt.prii
+;.SECTION_SCREEN		: inc.section_screen.prii
+;.SECTION_SHUTDOWN		: inc.section_shutdown.prii
+;.SECTION_SOURCE		: inc.section_source.prii
+;.SECTION_SYSTEM		: inc.section_system.prii
+;.SECTION_WAD			: inc.section_wad.prii
+;.SECTION_WBFS			: inc.section_wbfs.prii
+;.SECTION_COVERFLOW		: inc.section_coverflow.prii
+
+.SECTION_ABOUT
+
+.SECTION_BLANK_COVERS
+
+.SECTION_BOOT
+
+.SECTION_CATEGORY
+
+.SECTION_CFG_HB
+
+.SECTION_CFG_SRC
+
+.SECTION_CFTHEME
+
+.SECTION_CHEAT
+
+.SECTION_CODE
+
+.SECTION_CONFIG
+
+.SECTION_COVERBNR
+
+.SECTION_DOWNLOAD
+
+.SECTION_ERROR
+
+.SECTION_EXIT
+
+.SECTION_EXPLORER
+
+.SECTION_GAME
+
+.SECTION_GAMEINFO
+
+.SECTION_GAME_SETTINGS
+
+.SECTION_GENERAL
+
+.SECTION_HOME
+
+.SECTION_MAIN
+
+.SECTION_MEM
+
+.SECTION_NANDEMU
+
+.SECTION_PARTCFG
+
+.SECTION_PATHS
+
+.SECTION_PLUGIN
+
+.SECTION_PROMPT
+
+.SECTION_SCREEN
+
+.SECTION_SHUTDOWN
+
+.SECTION_SOURCE
+
+.SECTION_SYSTEM
+
+.SECTION_WAD
+
+.SECTION_WBFS
+
+.SECTION_COVERFLOW
