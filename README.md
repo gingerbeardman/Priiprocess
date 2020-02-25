@@ -1,8 +1,11 @@
 # Priiprocess
 
-So the goals of my tool:
+> This tool was created to help make it easier to create, edit and maintain software .ini files
+
+The goals were:
 
 * Easier theme creation
+* Easier theme editing
 * Easier theme management
 * Smaller themes
 * Modular themes
@@ -16,7 +19,7 @@ The result is kind of like a cross between INI and CSS.
 
 You can define a single *.color_heading* and then use it in many places. To change the colour of all those elements, simply change the single definition and you're done!
 
-To show that the tool works, I have deconstructed *Rhapsodii 2.0* which in the process became a more organised theme. By reusing definitions for positions and reusable elements I was able to consolidate and improved consistency. Thanks for your kind support @Hakaisha!
+To show that the tool works, I have deconstructed *Rhapsodii 2.0* - a theme for [WiiFlow Lite](https://github.com/Fledge68/WiiFlow_Lite) - which in the process became a more organised. By reusing definitions for common positions and reusable elements I was able to consolidate and improve consistency. Thanks to [@Hakaisha](https://github.com/Hakaisha) the creator of that theme for their kind support!
 
 As an example, every title has the same code:
 
@@ -55,7 +58,7 @@ And by go further by using a single include:
 	[ABOUT/TITLE]
 	.title
 
-The best results would come from building a theme from a scratch with the tool in mind, as my deconstruction of Rhapsodii 2.0 could be optimised further still.
+The best results would come from building a theme from a scratch with the tool in mind, as my deconstruction of *Rhapsodii 2.0* could be optimised further still.
 
 So... the tool! I'm calling it [B]Priiprocess[/B] and it is less than 100 lines of PHP code. It could easily be ported to Python or even C (if WFL wanted to add support for this type of theme structure). 
 
