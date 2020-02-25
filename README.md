@@ -18,6 +18,8 @@ You can define a single *.color_heading* and then use it in many places. To chan
 
 To show that the tool works, I have deconstructed *Rhapsodii 2.0* - a theme for [WiiFlow Lite](https://github.com/Fledge68/WiiFlow_Lite) - which in the process became a more organised. By reusing definitions for common positions and reusable elements I was able to consolidate and improve consistency. Thanks to [@Hakaisha](https://github.com/Hakaisha) the creator of that theme for their kind support!
 
+## Example
+
 As an example, every title has the same code:
 
 	[ABOUT/TITLE]
@@ -58,3 +60,7 @@ And by go further by using a single include:
 The best results would come from building a theme from a scratch with the tool in mind, as my deconstruction of *Rhapsodii 2.0* could be optimised further still.
 
 So... the tool! I'm calling it [B]Priiprocess[/B] and it is less than 100 lines of PHP code. It could easily be ported to Python or even C (if WFL wanted to add support for this type of theme structure).
+
+## Usage
+
+    php priiprocess.php
