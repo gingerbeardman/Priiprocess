@@ -96,10 +96,19 @@ So... the tool! I'm calling it **Priiprocess** and it is less than 100 lines of 
 
 ## Usage
 
-    php priiprocess.php <themename>
+    php priiprocess.php themename
 
-It spits out a <themename>.prii.ini file (includes merged, variables untouched) and a <themename>.ini (incudes merged, variables replaced).
+**Input files structure**
 
-### Changelog
+* _themename_ (folder)
+   * _themename.prii_ (definitions)
+   * _other files_ (suplementary definitions)
+
+**Output files structure**
+
+*  _themename.prii_ (includes merged, variables untouched) 
+*  _themename.prii.ini_ (incudes merged, variables replaced)
+
+## Changelog
 20 Mar 2020 — improvements to command line usage, minor fix for Rhapsodii  
 25 Feb 2020 — initial release  
