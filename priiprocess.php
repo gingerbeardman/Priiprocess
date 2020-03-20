@@ -1,5 +1,4 @@
 <?php
-error_reporting(E_NONE);
 error_reporting(E_ALL);
 
 // text not html
@@ -9,13 +8,18 @@ $fp = array();
 $var = array();
 $ini = "";
 $prii = "";
-$theme = "Rhapsodii";
+if ( count($argv) == 1 ) {
+	echo "Usage: priiprocess.php Theme\n";
+	exit;
+} else {
+	$theme = $argv[1];
+}
 
 $ret = priiprocess( "$theme/$theme.prii" );
 file_put_contents( "$theme.ini", $ini );
 file_put_contents( "$theme.prii.ini", $prii );
 $message = ($ret) ? 'ERROR!' : 'done';
-echo "\nPriiprocess: $message\n";
+echo "\nPriiprocess: $theme $message\n";
 
 // main
 function priiprocess( $file ) {
