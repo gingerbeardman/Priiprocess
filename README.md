@@ -99,3 +99,7 @@ So... the tool! I'm calling it **Priiprocess** and it is less than 100 lines of 
     php priiprocess.php
 
 It spits out a .prii.ini file (includes merged, variables untouched) and an .ini (incudes merged, variables replaced).
+
+### Changelog
+20 Mar 2020 — improvements to command line usage, minor fix for Rhapsodii  
+25 Feb 2020 — initial release  
