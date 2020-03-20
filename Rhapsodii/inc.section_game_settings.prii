@@ -207,7 +207,7 @@ width=385
 
 [GAME_SETTINGS/FIX480P_BTN]
 .option_button
-.cfg_x_action
+.cfg_x_button
 .cfg_y_line_3
 
 [GAME_SETTINGS/FLASH_SAVE]
